@@ -6,6 +6,16 @@ package user;
 public class Student {
     private String name;
     private String vorname;
+    private int matrikelnummer;
+    private int semester;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getVorname() {
         return vorname;
@@ -15,11 +25,21 @@ public class Student {
         this.vorname = vorname;
     }
 
-    public String getName() {
-        return name;
+    public int getMatrikelnummer() {
+        return matrikelnummer;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setMatrikelnummer(int matrikelnummer) {
+        this.matrikelnummer = matrikelnummer;
     }
+
+    public int getSemester() {
+        return semester;
+    }
+
+    public void setSemester(int semester) {
+        this.semester = semester;
+    }
+
+
 }
