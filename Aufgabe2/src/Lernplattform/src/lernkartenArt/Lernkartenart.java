@@ -1,9 +1,11 @@
 package lernkartenArt;
 
+import persistenz.IPersistenzServices;
+
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Lernkartenart {
+public class Lernkartenart implements IPersistenzServices{
     private Foto foto;
     private FreiText freiText;
     private Grafik grafik;
