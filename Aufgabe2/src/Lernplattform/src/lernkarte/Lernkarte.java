@@ -15,16 +15,6 @@ public class Lernkarte implements IPersistenzServices{
 //    Lernkartenart sonst als Klassen
     private Lernkartenart lernkartenart;
 
-    public Lernkarte(Modul modul, Lernkartenart lernkartenart) {
-        this.lernkartenart  = lernkartenart;
-        this.modul = modul;
-    }
-
-    private Collection<Lernkarte> erstelleLernkarte() {
-        Collection<Lernkarte> lernkarte = new ArrayList<Lernkarte>();
-        return lernkarte;
-    }
-
     public Modul getModul() {
         return modul;
     }

@@ -8,6 +8,7 @@ public class Student {
     private String vorname;
     private int matrikelnummer;
     private int semester;
+    private EmailDatentyp email;
 
     public String getName() {
         return name;
