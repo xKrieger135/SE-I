@@ -9,7 +9,7 @@ import java.util.Collection;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Lernkarte implements IPersistenzServices{
+public class Lernkarte {
     private Modul modul;
 //    Lernkartenart vielleicht als Enum? Ausfzählungstyp, PDF aus Vorlesung.
 //    Lernkartenart sonst als Klassen
