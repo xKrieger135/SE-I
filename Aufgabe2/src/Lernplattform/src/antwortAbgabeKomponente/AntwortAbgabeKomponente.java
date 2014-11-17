@@ -1,7 +1,6 @@
-package antwort;
+package antwortAbgabeKomponente;
 
-import persistenz.IPersistenzServices;
-import user.INutzerVerwaltung;
+import nutzerVerwaltungsKomponente.INutzerVerwaltung;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.

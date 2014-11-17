@@ -1,6 +1,4 @@
-package lernkarte;
-
-import persistenz.IPersistenzServices;
+package lernkartenVerwaltungsKomponente;
 
 import java.util.Collection;
 

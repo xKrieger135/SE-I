@@ -1,4 +1,4 @@
-package antwort;
+package antwortAbgabeKomponente;
 
 import lernkartenArt.Lernkartenart;
 
