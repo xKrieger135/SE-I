@@ -1,0 +1,87 @@
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\App.config
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.dll.config
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Antlr3.Runtime.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Anwendungskernfassade.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Autofac.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Castle.Core.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FilialeverwaltungsKomponente.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KontoverwaltungsKomponente.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\log4net.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.Linq.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\PersistenceManager.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\System.Data.SQLite.DLL
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\0-Typen.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Anwendungskernfassade.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FilialeverwaltungsKomponente.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KontoverwaltungsKomponente.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\0-Typen.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\App.config
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.dll.config
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Antlr3.Runtime.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Anwendungskernfassade.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Castle.Core.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FilialeverwaltungsKomponente.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KontoverwaltungsKomponente.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\log4net.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.Linq.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\PersistenceManager.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\System.Data.SQLite.DLL
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\0-Typen.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Anwendungskernfassade.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FilialeverwaltungsKomponente.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KontoverwaltungsKomponente.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\0-Typen.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.csprojResolveAssemblyReference.cache
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\App.config
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.dll.config
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\TestBankingSystem.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Anwendungskernfassade.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Common.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FilialeverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KontoverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\PersistenceServices.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\0-Typen.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Anwendungskernfassade.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FilialeverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KontoverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\FluentNHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\Iesi.Collections.xml
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\NHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\bin\Debug\0-Typen.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.csprojResolveAssemblyReference.cache
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.dll
+C:\Users\srs\Documents\Projekte\BankingSystem\TestKontoverwaltungsKomponente\obj\Debug\TestBankingSystem.pdb

@@ -1,0 +1,14 @@
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\bin\Debug\0-Typen.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\bin\Debug\0-Typen.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\obj\Debug\0-Typen.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\0-Typen\obj\Debug\0-Typen.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\bin\Debug\Common.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\bin\Debug\Common.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\obj\Debug\Common.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Common\obj\Debug\Common.pdb

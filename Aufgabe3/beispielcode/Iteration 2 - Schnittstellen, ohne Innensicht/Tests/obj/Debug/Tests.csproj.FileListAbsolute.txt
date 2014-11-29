@@ -1,0 +1,43 @@
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\App.config
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Tests.dll.config
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Tests.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Tests.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Anwendungskernfassade.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Common.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\FilialeverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\FluentNHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Iesi.Collections.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\KontoverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\NHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\PersistenceServices.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Anwendungskernfassade.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\FilialeverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\KontoverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\FluentNHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\Iesi.Collections.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\NHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\bin\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\obj\Debug\Tests.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\Tests\obj\Debug\Tests.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\App.config
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\Tests.dll.config
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\Tests.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\Tests.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\FilialeverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\KontoverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\FilialeverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\KontoverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\bin\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\obj\Debug\Tests.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\Tests\obj\Debug\Tests.pdb

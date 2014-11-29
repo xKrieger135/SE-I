@@ -1,0 +1,11 @@
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\bin\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\bin\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\obj\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\BankingCommon\obj\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\BankingCommon\bin\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\BankingCommon\bin\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\BankingCommon\obj\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\BankingCommon\obj\Debug\BankingCommon.pdb

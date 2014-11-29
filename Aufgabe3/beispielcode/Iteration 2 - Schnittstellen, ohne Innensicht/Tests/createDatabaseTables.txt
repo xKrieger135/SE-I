@@ -1,0 +1,46 @@
+-- MySQL SQL Script
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+-- -----------------------------------------------------
+-- Schema bank
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `bank` DEFAULT CHARACTER SET latin1 ;
+USE `bank` ;
+
+-- -----------------------------------------------------
+-- Table `bank`.`konto`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bank`.`konto` (
+  `Id` INT(11) NOT NULL AUTO_INCREMENT,
+  `DispoKredit` INT(11) NULL DEFAULT NULL,
+  `Filiale_id` INT(11) NULL DEFAULT NULL,
+  `Blz` INT(11) NULL DEFAULT NULL,
+  `KontoNummer` INT(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id`),
+  UNIQUE INDEX `Blz` (`Blz` ASC, `KontoNummer` ASC),
+  INDEX `Filiale_id` (`Filiale_id` ASC))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = latin1;
+
+-- -----------------------------------------------------
+-- Table `bank`.`buchungsposition`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bank`.`buchungsposition` (
+  `Id` INT(11) NOT NULL AUTO_INCREMENT,
+  `GebuchterBetrag` DECIMAL(19,5) NULL DEFAULT NULL,
+  `Beschreibung` VARCHAR(255) NULL DEFAULT NULL,
+  `Konto_id` INT(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id`),
+  INDEX `Konto_id` (`Konto_id` ASC),
+  CONSTRAINT `FK602A30215229DB8A`
+    FOREIGN KEY (`Konto_id`)
+    REFERENCES `bank`.`konto` (`Id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = latin1;
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

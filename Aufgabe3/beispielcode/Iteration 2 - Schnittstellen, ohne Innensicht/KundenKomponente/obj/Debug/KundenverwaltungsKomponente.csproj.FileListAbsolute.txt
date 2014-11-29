@@ -1,0 +1,77 @@
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\0-Typen.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\Castle.Core.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\log4net.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\NHibernate.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\NHibernate.Linq.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\PersistenceManager.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\Antlr3.Runtime.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\bin\Debug\0-Typen.pdb
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.dll
+C:\Users\sarstedt\Desktop\WP TI\Technische Infrastruktur und Beispielprojekt\99 - Example\BankingSystem\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\0-Typen.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\Castle.Core.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\log4net.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\NHibernate.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\NHibernate.Linq.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\PersistenceManager.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\Antlr3.Runtime.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\bin\Debug\0-Typen.pdb
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.csprojResolveAssemblyReference.cache
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Desktop\BankingSystem\BankingSystem\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\0-Typen.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\NHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\PersistenceServices.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\Common.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\0-Typen.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\FluentNHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\Iesi.Collections.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\bin\Debug\NHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.csprojResolveAssemblyReference.cache
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v2 SE1\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\Common.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\FluentNHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\Iesi.Collections.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\log4net.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\MySql.Data.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\NHibernate.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\PersistenceServices.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\FluentNHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\Iesi.Collections.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\log4net.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\NHibernate.xml
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.csprojResolveAssemblyReference.cache
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration n\KundenKomponente\bin\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\bin\Debug\KundenverwaltungsKomponente.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\bin\Debug\BankingCommon.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\bin\Debug\BankingCommon.pdb
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.csprojResolveAssemblyReference.cache
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.dll
+C:\Users\srs\Documents\Projekte\BankingSystem v3 SE1 - iterativ\1 - Code\Iteration 1 - Entitaeten, Datentypen, Komponenten, DI\KundenKomponente\obj\Debug\KundenverwaltungsKomponente.pdb
