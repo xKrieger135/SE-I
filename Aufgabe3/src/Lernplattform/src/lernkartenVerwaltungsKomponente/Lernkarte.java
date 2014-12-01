@@ -1,30 +1,26 @@
 package lernkartenVerwaltungsKomponente;
 
-import antwortAbgabeKomponente.IAntwort;
-import lernkartenArt.AufgabenArt;
-
-import java.util.HashMap;
 import java.util.List;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Lernkarte implements ILernkarte{
+public class Lernkarte implements ILernkarte {
 
     private int lernkartenID;
-
+    private Modul modul;
+    private AufgabenArt lernkartenart;
 
     public Lernkarte() {
         this.lernkartenart = new AufgabenArt();
     }
+
     public Lernkarte(AufgabenArt art) {
-        this.lernkartenart=art;
+        this.lernkartenart = art;
     }
-    private Modul modul;
 
-    private AufgabenArt lernkartenart;
-
-    public Modul getModul() {
+    @Override
+    public IModul getModul() {
 
         return modul;
     }
@@ -46,12 +42,12 @@ public class Lernkarte implements ILernkarte{
 
 
     @Override
-    public ILernkarte erstelleLernkarte(IModul modul) {
-        return null;
+    public void fuegeAufgabenArtHinzu(AufgabenArt aufgabenArt) {
+
     }
 
     @Override
-    public void fuegeAufgabenArtHinzu(AufgabenArt aufgabenArt) {
+    public void getAufgabenArt() {
 
     }
 
@@ -60,18 +56,6 @@ public class Lernkarte implements ILernkarte{
 
     }
 
-    @Override
-    public List<ILernkarte> getListeDerLernkarten() {
-        return null;
-    }
 
-    @Override
-    public ILernkarte zeigeLernkarteAn(ILernkarte lernkarte) {
-        return null;
-    }
 
-    @Override
-    public HashMap<IFrage, HashMap<IAntwort, Boolean>> leseFragenUndAntwortenAusDatenbank(ILernkarte lernkarte) {
-        return null;
-    }
 }

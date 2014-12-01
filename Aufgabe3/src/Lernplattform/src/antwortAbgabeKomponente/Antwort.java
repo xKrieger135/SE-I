@@ -1,6 +1,6 @@
 package antwortAbgabeKomponente;
 
-import lernkartenArt.AufgabenArt;
+import lernkartenVerwaltungsKomponente.AufgabenArt;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.

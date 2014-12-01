@@ -1,14 +1,6 @@
-package lernkartenArt;
+package lernkartenVerwaltungsKomponente;
 
-import antwortAbgabeKomponente.IAntwort;
-import lernkartenVerwaltungsKomponente.IFrage;
-import lernkartenVerwaltungsKomponente.ILernkarte;
-import lernkartenVerwaltungsKomponente.IModul;
-import lernkartenVerwaltungsKomponente.Lernkarte;
-
-import java.io.File;
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
@@ -35,7 +27,7 @@ public class SingleChoice {
         singleChoice.put(frage, antworten);
     }
 
-    public String getkeyFuerFrage(int aufgabenNummer) {
+    public String getKeyFuerFrage(int aufgabenNummer) {
         String gesuchteFrage = "";
         for(String frage : singleChoice.keySet()) {
             if(aufgabenNummer == 1) {
@@ -53,8 +45,14 @@ public class SingleChoice {
     }
 
     public void fuegeAntwortHinzu(int aufgabenNummer, String antwort, boolean richtigOderFalsch) {
-        HashMap<String, Boolean> zuGehoerigeFrage = singleChoice.get(getkeyFuerFrage(aufgabenNummer));
-        zuGehoerigeFrage.put(antwort, richtigOderFalsch);
+        if(singleChoice.get(getKeyFuerFrage(aufgabenNummer)).containsValue(true) && richtigOderFalsch == true) {
+            throw new IllegalArgumentException();
+        } else {
+            HashMap<String, Boolean> zuGehoerigeFrage = singleChoice.get(getKeyFuerFrage(aufgabenNummer));
+            zuGehoerigeFrage.put(antwort, richtigOderFalsch);
+        }
+
+        System.out.println(singleChoice.get(getKeyFuerFrage(aufgabenNummer)).containsValue(true));
     }
 
     public static void main(String[] args) {
@@ -63,9 +61,10 @@ public class SingleChoice {
         single.fuegeFrageHinzu("Wie heiße ich?");
 
         single.fuegeAntwortHinzu(1,"Patrick", true);
+        single.fuegeAntwortHinzu(1, "Steinhauer", false);
 
 
-        System.out.println(single.getkeyFuerFrage(1).toString());
+        System.out.println(single.getKeyFuerFrage(1).toString());
     }
 
     @Override

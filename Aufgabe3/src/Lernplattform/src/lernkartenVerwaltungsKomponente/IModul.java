@@ -20,4 +20,10 @@ public interface IModul {
 
     void speichereModul(IModul modul);
 
+    void erstelleLernkarte();
+
+    List<ILernkarte> getListeDerLernkarten();
+
+    String zeigeLernkartenInhaltAn(Lernkarte lernkarte);
+
 }

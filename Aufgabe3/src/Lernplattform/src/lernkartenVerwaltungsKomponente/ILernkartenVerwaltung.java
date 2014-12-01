@@ -1,7 +1,5 @@
 package lernkartenVerwaltungsKomponente;
 
-import lernkartenArt.AufgabenArt;
-
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */

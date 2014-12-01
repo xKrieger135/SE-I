@@ -1,7 +1,6 @@
 package lernkartenVerwaltungsKomponente;
 
 import antwortAbgabeKomponente.IAntwortVerwaltung;
-import lernkartenArt.AufgabenArt;
 import persistenz.IPersistenzServices;
 import nutzerVerwaltungsKomponente.INutzerVerwaltung;
 

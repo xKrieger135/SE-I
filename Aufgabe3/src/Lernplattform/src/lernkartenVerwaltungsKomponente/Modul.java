@@ -29,4 +29,14 @@ public class Modul implements IModul{
     public void speichereModul(IModul modul) {
 
     }
+
+    @Override
+    public void erstelleLernkarte() {
+
+    }
+
+    @Override
+    public List<ILernkarte> getListeDerLernkarten() {
+        return null;
+    }
 }
