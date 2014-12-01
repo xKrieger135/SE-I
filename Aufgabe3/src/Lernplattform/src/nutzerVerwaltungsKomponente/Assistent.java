@@ -3,7 +3,7 @@ package nutzerVerwaltungsKomponente;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Assistent {
+public class Assistent extends Nutzer{
     private String name;
     private String Vorname;
     private int personalnummer;

@@ -1,13 +1,13 @@
 package antwortAbgabeKomponente;
 
-import lernkartenArt.Lernkartenart;
+import lernkartenArt.AufgabenArt;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
 public class Antwort {
     private boolean antwortIstKorrekt=false;
-    private Lernkartenart antwort;
+    private AufgabenArt antwort;
 
     public boolean istAbgegebeneAntwortKorrekt() {
 
@@ -23,11 +23,11 @@ public class Antwort {
         this.antwortIstKorrekt = antwortIstKorrekt;
     }
 
-    public Lernkartenart getAntwort() {
+    public AufgabenArt getAntwort() {
         return antwort;
     }
 
-    public void setAntwort(Lernkartenart antwort) {
+    public void setAntwort(AufgabenArt antwort) {
         this.antwort = antwort;
     }
 }

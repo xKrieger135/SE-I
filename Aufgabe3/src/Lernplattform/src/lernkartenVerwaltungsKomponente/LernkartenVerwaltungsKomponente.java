@@ -1,7 +1,7 @@
 package lernkartenVerwaltungsKomponente;
 
 import antwortAbgabeKomponente.IAntwortVerwaltung;
-import lernkartenArt.Lernkartenart;
+import lernkartenArt.AufgabenArt;
 import persistenz.IPersistenzServices;
 import nutzerVerwaltungsKomponente.INutzerVerwaltung;
 
@@ -26,7 +26,7 @@ public class LernkartenVerwaltungsKomponente implements ILernkartenVerwaltung {
     }
 
     @Override
-    public Lernkarte aendereLernkarte(Lernkartenart neueArt) {
+    public Lernkarte aendereLernkarte(AufgabenArt neueArt) {
         return new Lernkarte(neueArt);
     }
 

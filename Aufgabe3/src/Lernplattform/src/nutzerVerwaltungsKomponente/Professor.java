@@ -3,7 +3,7 @@ package nutzerVerwaltungsKomponente;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Professor {
+public class Professor extends Nutzer{
     private String name;
     private String vorname;
     private int personalnummer;

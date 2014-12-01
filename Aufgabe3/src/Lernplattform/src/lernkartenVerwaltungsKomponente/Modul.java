@@ -21,6 +21,11 @@ public class Modul implements IModul{
     }
 
     @Override
+    public IModul getModul(String modul) {
+        return null;
+    }
+
+    @Override
     public void speichereModul(IModul modul) {
 
     }

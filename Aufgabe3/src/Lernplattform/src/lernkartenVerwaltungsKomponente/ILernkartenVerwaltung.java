@@ -1,6 +1,6 @@
 package lernkartenVerwaltungsKomponente;
 
-import lernkartenArt.Lernkartenart;
+import lernkartenArt.AufgabenArt;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
@@ -8,7 +8,7 @@ import lernkartenArt.Lernkartenart;
 public interface ILernkartenVerwaltung {
     public Lernkarte erstelleLernkarte();
 
-    public Lernkarte aendereLernkarte(Lernkartenart lernkartenart);
+    public Lernkarte aendereLernkarte(AufgabenArt lernkartenart);
 
     public Modul zeigeModuleVonLernkarteAn();
 }

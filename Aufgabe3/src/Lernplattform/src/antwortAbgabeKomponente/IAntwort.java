@@ -11,5 +11,9 @@ import java.util.Map;
  */
 public interface IAntwort {
 
+    IAntwort erstelleAntwort();
+
+    void speichereAntwort(IAntwort antwort);
+
 
 }

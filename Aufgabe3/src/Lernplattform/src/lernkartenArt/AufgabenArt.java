@@ -5,7 +5,7 @@ import persistenz.IPersistenzServices;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Lernkartenart implements IPersistenzServices{
+public class AufgabenArt implements IPersistenzServices{
     private Foto foto;
     private FreiText freiText;
     private Grafik grafik;

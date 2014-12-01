@@ -10,11 +10,8 @@ import java.util.HashMap;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class FreiText implements IAntwort{
+public class FreiText {
     private File freitext;
 
-    @Override
-    public HashMap<IFrage, HashMap<IAntwort, Boolean>> leseFragenUndAntwortenAusDatenbank(ILernkarte lernkarte) {
-        return null;
-    }
+
 }

@@ -10,11 +10,6 @@ import java.util.HashMap;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Lueckentext implements IAntwort{
+public class Lueckentext {
     private File lueckentext;
-
-    @Override
-    public HashMap<IFrage, HashMap<IAntwort, Boolean>> leseFragenUndAntwortenAusDatenbank(ILernkarte lernkarte) {
-        return null;
-    }
 }
