@@ -4,31 +4,26 @@ package nutzerVerwaltungsKomponente;
  * Created by patrick_steinhauer on 10.11.2014.
  */
 public class Assistent extends Nutzer{
-    private String name;
-    private String Vorname;
-    private int personalnummer;
 
-    public String getName() {
-        return name;
+    public void Assistent(String vorName, String nachName, String personalKennung, String email) {
+        if (NutzerKennung.isValidKennung(personalKennung) && (EmailDatentyp.isValidEmail(email))) {
+            setVorname(vorName);
+            setName(nachName);
+            setNutzerKennung(new NutzerKennung(personalKennung));
+            setEmail(new EmailDatentyp(email));
+        } else {
+            throw new IllegalArgumentException();
+        }
     }
 
-    public void setName(String name) {
-        this.name = name;
+    // Änderung der Nutzerkennung möglich?
+    public void setPersonalnummer(NutzerKennung personalNummer) {
+        setNutzerKennung(personalNummer);
     }
 
-    public String getVorname() {
-        return Vorname;
+
+    public NutzerKennung getPersonalnummer() {
+        return getNutzerKennung();
     }
 
-    public void setVorname(String vorname) {
-        Vorname = vorname;
-    }
-
-    public int getPersonalnummer() {
-        return personalnummer;
-    }
-
-    public void setPersonalnummer(int personalnummer) {
-        this.personalnummer = personalnummer;
-    }
 }
