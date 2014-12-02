@@ -16,11 +16,11 @@ public interface IModul {
 
     List<IModul> getModulListe();
 
-    IModul getModul(String modul);
+    //IModul getModul(String modul);
 
     void speichereModul(IModul modul);
 
-    void erstelleLernkarte();
+    void erstelleLernkarte(ILernkarte lernkarte);
 
     List<ILernkarte> getListeDerLernkarten();
 

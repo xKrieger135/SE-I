@@ -2,6 +2,7 @@ package antwortAbgabeKomponente;
 
 import lernkartenVerwaltungsKomponente.IFrage;
 import lernkartenVerwaltungsKomponente.ILernkarte;
+import nutzerVerwaltungsKomponente.INutzerVerwaltung;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +12,7 @@ import java.util.Map;
  */
 public interface IAntwort {
 
-    IAntwort erstelleAntwort();
+    IAntwort erstelleAntwort(INutzerVerwaltung nutzerVerwaltung);
 
     void speichereAntwort(IAntwort antwort);
 
