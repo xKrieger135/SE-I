@@ -1,6 +1,5 @@
-package lernkartenVerwaltungsKomponente;
+package lernkartenKomponente;
 
-import lernkartenArt.*;
 import persistenz.IPersistenzServices;
 
 /**

@@ -1,4 +1,4 @@
-package lernkartenVerwaltungsKomponente;
+package lernkartenKomponente;
 
 import java.util.HashMap;
 

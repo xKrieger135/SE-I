@@ -1,7 +1,7 @@
-package antwortAbgabeKomponente;
+package antwortKomponente;
 
-import lernkartenVerwaltungsKomponente.AufgabenArt;
-import nutzerVerwaltungsKomponente.INutzerVerwaltung;
+import lernkartenKomponente.AufgabenArt;
+import nutzerKomponente.INutzer;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
@@ -33,7 +33,7 @@ public class Antwort implements IAntwort{
     }
 
     @Override
-    public IAntwort erstelleAntwort(INutzerVerwaltung nutzerVerwaltung) {
+    public IAntwort erstelleAntwort(INutzer nutzerVerwaltung) {
         return null;
     }
 

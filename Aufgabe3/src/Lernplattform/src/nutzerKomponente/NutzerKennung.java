@@ -1,4 +1,4 @@
-package nutzerVerwaltungsKomponente;
+package nutzerKomponente;
 
 import java.util.regex.Pattern;
 

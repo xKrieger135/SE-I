@@ -1,6 +1,4 @@
-package nutzerVerwaltungsKomponente;
-
-import java.util.regex.Pattern;
+package nutzerKomponente;
 
 /**
  * Created by patrick_steinhauer on 01.12.2014.

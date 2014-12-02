@@ -1,6 +1,4 @@
-package lernkartenVerwaltungsKomponente;
-
-import java.util.List;
+package lernkartenKomponente;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.

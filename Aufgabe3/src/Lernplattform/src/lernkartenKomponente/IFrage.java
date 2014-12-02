@@ -1,4 +1,4 @@
-package lernkartenVerwaltungsKomponente;
+package lernkartenKomponente;
 
 /**
  * Created by patrick_steinhauer on 29.11.2014.

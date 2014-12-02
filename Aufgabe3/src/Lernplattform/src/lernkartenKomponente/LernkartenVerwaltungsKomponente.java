@@ -1,20 +1,20 @@
-package lernkartenVerwaltungsKomponente;
+package lernkartenKomponente;
 
-import antwortAbgabeKomponente.IAntwortVerwaltung;
+import antwortKomponente.IAntwortKomponenteServices;
+import nutzerKomponente.INutzer;
 import persistenz.IPersistenzServices;
-import nutzerVerwaltungsKomponente.INutzerVerwaltung;
 
 import java.util.Collection;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class LernkartenVerwaltungsKomponente implements ILernkartenVerwaltung {
-    private IAntwortVerwaltung antwortVerwaltung;
-    private INutzerVerwaltung nutzerVerwaltung;
+public class LernkartenVerwaltungsKomponente implements ILernkartenKomponenteServices {
+    private IAntwortKomponenteServices antwortVerwaltung;
+    private INutzer nutzerVerwaltung;
     private Collection<Lernkarte> lernkarte;
 
-    public LernkartenVerwaltungsKomponente(IPersistenzServices persistenzServices, IAntwortVerwaltung antwortVerwaltung, INutzerVerwaltung nutzerVerwaltung) {
+    public LernkartenVerwaltungsKomponente(IPersistenzServices persistenzServices, IAntwortKomponenteServices antwortVerwaltung, INutzer nutzerVerwaltung) {
         this.antwortVerwaltung = antwortVerwaltung;
         this.nutzerVerwaltung = nutzerVerwaltung;
     }
