@@ -15,33 +15,17 @@ public class Modul implements IModul{
     }
 
     @Override
-    public IModul erstelleModul(String modul) {
+    public String getModulName() {
         return null;
     }
 
     @Override
-    public List<IModul> getModulListe() {
-        return null;
+    public int getModulNummer() {
+        return 0;
     }
 
     @Override
-    public void speichereModul(IModul modul) {
-        //Datenbankoperation
-    }
-
-    @Override
-    public void erstelleLernkarte(ILernkarte lernkarte) {
-        lernkarten = new ArrayList<ILernkarte>();
-        lernkarten.add(lernkarte);
-    }
-
-    @Override
-    public List<ILernkarte> getListeDerLernkarten() {
-        return lernkarten;
-    }
-
-    @Override
-    public String zeigeLernkartenInhaltAn(Lernkarte lernkarte) {
+    public String getModulBeschreibung() {
         return null;
     }
 }

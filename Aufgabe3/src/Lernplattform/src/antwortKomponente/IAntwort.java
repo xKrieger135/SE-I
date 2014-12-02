@@ -7,9 +7,4 @@ import nutzerKomponente.INutzer;
  */
 public interface IAntwort {
 
-    IAntwort erstelleAntwort(INutzer nutzerVerwaltung);
-
-    void speichereAntwort(IAntwort antwort);
-
-
 }

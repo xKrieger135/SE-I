@@ -7,20 +7,14 @@ public class Lernkarte implements ILernkarte {
 
     private int lernkartenID;
     private Modul modul;
-    private AufgabenArt lernkartenart;
+    private AufgabenArt aufgabenArt;
 
     public Lernkarte() {
-        this.lernkartenart = new AufgabenArt();
+        this.aufgabenArt = new AufgabenArt();
     }
 
     public Lernkarte(AufgabenArt art) {
-        this.lernkartenart = art;
-    }
-
-    @Override
-    public IModul getModul() {
-
-        return modul;
+        this.aufgabenArt = art;
     }
 
     public void setModul(Modul modul) {
@@ -28,32 +22,33 @@ public class Lernkarte implements ILernkarte {
         this.modul = modul;
     }
 
-    public AufgabenArt getLernkartenart() {
+    public AufgabenArt getAufgabenArt() {
 
-        return lernkartenart;
+        return aufgabenArt;
     }
 
-    public void setLernkartenart(AufgabenArt lernkartenart) {
+    public void setAufgabenArt(AufgabenArt aufgabenArt) {
 
-        this.lernkartenart = lernkartenart;
-    }
-
-
-    @Override
-    public void fuegeAufgabenArtHinzu(AufgabenArt aufgabenArt) {
-
+        this.aufgabenArt = aufgabenArt;
     }
 
     @Override
-    public void getAufgabenArt() {
-
+    public String getLernkartenName() {
+        return null;
     }
 
     @Override
-    public void speichereLernkarte(ILernkarte lernkarte) {
-
+    public int getLernkartenNummer() {
+        return 0;
     }
 
+    @Override
+    public String getLernkartenArt() {
+        return null;
+    }
 
-
+    @Override
+    public String zeigeLernkartenInhaltAn() {
+        return null;
+    }
 }
