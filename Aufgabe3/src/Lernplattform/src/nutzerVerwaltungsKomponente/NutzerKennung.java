@@ -22,4 +22,8 @@ public class NutzerKennung {
         ptr = Pattern.compile("/([a-z]{3}\\d{3})/");
         return ptr.matcher(TestKennung).matches();
     }
+
+    public boolean equals(Object o) {
+        return kennung.equals(o);
+    }
 }
