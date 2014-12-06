@@ -3,18 +3,21 @@ package lernkartenKomponente;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class Lernkarte implements ILernkarte {
+public class Lernkarte implements ILernkarte, IAufgabe {
 
     private int lernkartenID;
-    private Modul modul;
-    private AufgabenArt aufgabenArt;
+    private String lernkartenName;
+    private IModul modul;
+    private boolean ueberprueft;
+    private IAufgabe aufgabenTyp;
 
-    public Lernkarte() {
-        this.aufgabenArt = new AufgabenArt();
-    }
 
-    public Lernkarte(AufgabenArt art) {
-        this.aufgabenArt = art;
+    public Lernkarte(String lernkartenName, IModul modul, AufgabenTyp aufgabenTyp) {
+        this.lernkartenName = lernkartenName;
+        this.modul = modul;
+        if (aufgabenTyp == AufgabenTyp.SINGLECHOICE) {
+            this.aufgabenTyp = SingleChoice.getInstance();
+        }
     }
 
     public void setModul(Modul modul) {
@@ -22,33 +25,39 @@ public class Lernkarte implements ILernkarte {
         this.modul = modul;
     }
 
-    public AufgabenArt getAufgabenArt() {
-
-        return aufgabenArt;
-    }
-
-    public void setAufgabenArt(AufgabenArt aufgabenArt) {
-
-        this.aufgabenArt = aufgabenArt;
-    }
-
     @Override
     public String getLernkartenName() {
-        return null;
+        return lernkartenName;
     }
 
     @Override
     public int getLernkartenNummer() {
-        return 0;
-    }
-
-    @Override
-    public String getLernkartenArt() {
-        return null;
+        return lernkartenID;
     }
 
     @Override
     public String zeigeLernkartenInhaltAn() {
         return null;
+    }
+
+    @Override
+    public void fuegeFrageHinzu(String frage) {
+        aufgabenTyp.fuegeFrageHinzu(frage);
+    }
+
+    @Override
+    public void fuegeAntwortHinzu(int aufgabenNummer, String antwort, boolean richtigOderFalsch) {
+        aufgabenTyp.fuegeAntwortHinzu(aufgabenNummer, antwort, richtigOderFalsch);
+    }
+
+    @Override
+    public String toString() {
+        return "Lernkarte{" +
+                "lernkartenID=" + lernkartenID +
+                ", lernkartenName='" + lernkartenName + '\'' +
+                ", modul=" + modul +
+                ", ueberprueft=" + ueberprueft +
+                ", aufgabenTyp=" + aufgabenTyp +
+                '}';
     }
 }

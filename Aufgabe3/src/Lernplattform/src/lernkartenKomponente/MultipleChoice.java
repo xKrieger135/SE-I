@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class MultipleChoice {
+public class MultipleChoice implements IAufgabe {
     HashMap<String, HashMap<String, Boolean>> multipleChoice;
     private static MultipleChoice instance = null;
 
@@ -20,12 +20,13 @@ public class MultipleChoice {
         return instance;
     }
 
+    @Override
     public void fuegeFrageHinzu(String frage) {
         HashMap<String,Boolean> antworten = new HashMap();
         multipleChoice.put(frage, antworten);
     }
 
-    public String getKeyFuerFrage(int aufgabenNummer) {
+    private String getKeyFuerFrage(int aufgabenNummer) {
         String gesuchteFrage = "";
         for(String frage : multipleChoice.keySet()) {
             if(aufgabenNummer == 1) {
@@ -42,6 +43,7 @@ public class MultipleChoice {
         return multipleChoice.size();
     }
 
+    @Override
     public void fuegeAntwortHinzu(int aufgabenNummer, String antwort, boolean richtigOderFalsch) {
 
             HashMap<String, Boolean> zuGehoerigeFrage = multipleChoice.get(getKeyFuerFrage(aufgabenNummer));

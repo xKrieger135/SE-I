@@ -13,4 +13,12 @@ public interface IModul {
     int getModulNummer();
 
     String getModulBeschreibung();
+
+    void setModulName(String modulName);
+
+    void setModulNummer(int modulNummer);
+
+    void setModulBeschreibung(String modulBeschreibung);
+
+    String toString();
 }

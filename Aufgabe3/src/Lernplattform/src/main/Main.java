@@ -1,10 +1,11 @@
 package main;
 
-import antwortKomponente.AntwortAbgabeKomponente;
+import antwortKomponente.AntwortKomponente;
 import antwortKomponente.IAntwortKomponenteServices;
 import lernkartenKomponente.ILernkartenKomponenteServices;
-import lernkartenKomponente.LernkartenVerwaltungsKomponente;
+import lernkartenKomponente.LernkartenKomponente;
 import nutzerKomponente.INutzer;
+import nutzerKomponente.INutzerKomponenteServices;
 import nutzerKomponente.Nutzerkomponente;
 import persistenz.IPersistenzServices;
 
@@ -14,8 +15,8 @@ import persistenz.IPersistenzServices;
 public class Main {
     public static void main(String[] args) {
         IPersistenzServices persistenzServices = null;
-        INutzer nutzerVerwaltung = new Nutzerkomponente();
-        IAntwortKomponenteServices antwortVerwaltung = new AntwortAbgabeKomponente(nutzerVerwaltung);
-        ILernkartenKomponenteServices lernkartenVerwaltung = new LernkartenVerwaltungsKomponente(persistenzServices, antwortVerwaltung, nutzerVerwaltung);
+        INutzerKomponenteServices nutzerVerwaltung = new Nutzerkomponente();
+        IAntwortKomponenteServices antwortVerwaltung = new AntwortKomponente(nutzerVerwaltung);
+        ILernkartenKomponenteServices lernkartenVerwaltung = new LernkartenKomponente(persistenzServices, antwortVerwaltung, nutzerVerwaltung);
     }
 }

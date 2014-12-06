@@ -5,13 +5,12 @@ import java.util.HashMap;
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
-public class SingleChoice {
+public class SingleChoice implements IAufgabe {
 
-    //HashMap<Integer, HashMap<String, HashMap<String, Boolean>>> singleChoice;
     HashMap<String, HashMap<String, Boolean>> singleChoice;
     private static SingleChoice instance = null;
 
-    private SingleChoice() {
+    SingleChoice() {
         singleChoice = new HashMap<String, HashMap<String, Boolean>>();
     }
 
@@ -22,15 +21,16 @@ public class SingleChoice {
         return instance;
     }
 
+    @Override
     public void fuegeFrageHinzu(String frage) {
-        HashMap<String,Boolean> antworten = new HashMap();
+        HashMap<String, Boolean> antworten = new HashMap();
         singleChoice.put(frage, antworten);
     }
 
     public String getKeyFuerFrage(int aufgabenNummer) {
         String gesuchteFrage = "";
-        for(String frage : singleChoice.keySet()) {
-            if(aufgabenNummer == 1) {
+        for (String frage : singleChoice.keySet()) {
+            if (aufgabenNummer == 1) {
                 gesuchteFrage = frage;
             } else {
                 aufgabenNummer = aufgabenNummer - 1;
@@ -44,8 +44,9 @@ public class SingleChoice {
         return singleChoice.size();
     }
 
+    @Override
     public void fuegeAntwortHinzu(int aufgabenNummer, String antwort, boolean richtigOderFalsch) {
-        if(singleChoice.get(getKeyFuerFrage(aufgabenNummer)).containsValue(true) && richtigOderFalsch == true) {
+        if (singleChoice.get(getKeyFuerFrage(aufgabenNummer)).containsValue(true) && richtigOderFalsch == true) {
             throw new IllegalArgumentException();
         } else {
             HashMap<String, Boolean> zuGehoerigeFrage = singleChoice.get(getKeyFuerFrage(aufgabenNummer));
@@ -60,7 +61,7 @@ public class SingleChoice {
 
         single.fuegeFrageHinzu("Wie heiße ich?");
 
-        single.fuegeAntwortHinzu(1,"Patrick", true);
+        single.fuegeAntwortHinzu(1, "Patrick", true);
         single.fuegeAntwortHinzu(1, "Steinhauer", false);
 
 

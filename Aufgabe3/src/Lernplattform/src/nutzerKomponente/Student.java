@@ -1,5 +1,11 @@
 package nutzerKomponente;
 
+import lernkartenKomponente.ILernkarte;
+import lernkartenKomponente.IModul;
+import lernkartenKomponente.LernkartenKomponente;
+
+import java.util.List;
+
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
@@ -9,6 +15,7 @@ public class Student extends Nutzer{
     private int matrikelnummer;
     private int semester;
     private EmailDatentyp email;
+
 
     public String getName() {
         return name;

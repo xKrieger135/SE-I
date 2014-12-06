@@ -8,7 +8,9 @@ public interface ILernkarte {
 
     int getLernkartenNummer();
 
-    String getLernkartenArt();
-
     String zeigeLernkartenInhaltAn();
+
+    String toString();
+
+
 }

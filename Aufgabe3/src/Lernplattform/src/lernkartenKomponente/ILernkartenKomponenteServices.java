@@ -11,17 +11,19 @@ public interface ILernkartenKomponenteServices {
     /**
      *
      * @param
-     * @return IModul
+     * @return List<IModul>
      */
-    IModul erstelleModul(IModul modul);
+    IModul erstelleModul(String modulName, String modulBeschreibung);
 
-    List<IModul> getModulListe(INutzer nutzerVerwaltung);
+    List<IModul> getModulListe();
 
-    List<ILernkarte> getListeDerLernkarten(IModul modul);
+    List<ILernkarte> getListeDerLernkarten();
 
-    ILernkarte erstelleLernkarte(ILernkarte lernkarte);
+    ILernkarte erstelleLernkarte(IModul modul, String lernkartenName, AufgabenTyp aufgabenTyp);
 
-    List<ILernkarte> getListeDerUnkorrigiertenLernkarten(IModul modul);
+    List<ILernkarte> getListeDerUnkorrigiertenLernkarten();
+
+    int speichereLernkarte(ILernkarte lernkarte);
 
 
 }
