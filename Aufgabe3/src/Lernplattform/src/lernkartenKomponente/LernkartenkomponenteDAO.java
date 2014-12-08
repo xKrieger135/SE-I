@@ -41,6 +41,25 @@ public class LernkartenkomponenteDAO  {
         return true;
     }
 
+    public INutzer getNutzerVonLernkarte() {
+        INutzer nutzerVonLernkarte = new Nutzer();
+
+        try {
+            login();
+            String select = "SELECT * FROM INUTZER";
+            PreparedStatement pstmt = connection.prepareStatement(select);
+            ResultSet resultset = pstmt.executeQuery();
+
+            while(resultset.next()) {
+
+
+            }
+            resultset.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return nutzerVonLernkarte;
+    }
 
     public List<IModul> getModulListe() {
         List<IModul> listeMitModulen = new ArrayList<IModul>();
@@ -108,7 +127,6 @@ public class LernkartenkomponenteDAO  {
                 lernkarte.setFrage(resultset.getString("LERNKARTENFRAGE"));
                 lernkarte.setAntwort(resultset.getString("LERNKARTENANTWORT"));
                 lernkarte.setUeberprueft(resultset.getString("LERNKARTEUEBERPRUEFT"));
-                lernkarte.setNutzer();
                 // TODO es muss auch ein nutzer gesetzt werden können (entweder auf die nutzer tabelle verweisen per nutzerID) oder den nutzer herauslesen
                 //  TODO irgendwie den befehl lernkarte.setNutzer(resultset.getNuzer());
             }

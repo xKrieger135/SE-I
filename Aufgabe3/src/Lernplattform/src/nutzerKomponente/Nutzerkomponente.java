@@ -10,6 +10,7 @@ import persistenz.IPersistenzServices;
 public class Nutzerkomponente implements INutzerKomponenteServices {
     private ILernkartenKomponenteServices lernkartenKomponenteServices;
     private IAntwortKomponenteServices antwortKomponenteServices;
+    private NutzerKomponentenDAO nutzerKomponentenDAO;
 
     public Nutzerkomponente(IPersistenzServices persistenzServices, ILernkartenKomponenteServices lernkartenKomponenteServices, IAntwortKomponenteServices antwortKomponenteServices) {
         this.lernkartenKomponenteServices = lernkartenKomponenteServices;
@@ -17,4 +18,9 @@ public class Nutzerkomponente implements INutzerKomponenteServices {
     }
 
 
+    @Override
+    public INutzer getNutzerAnhandSeinerLernkarte() {
+    //TODO diese methode muss noch ordentlich in der DAO gemacht werden
+        return nutzerKomponentenDAO.getNutzerAnhandSeinerLernkarte();
+    }
 }
