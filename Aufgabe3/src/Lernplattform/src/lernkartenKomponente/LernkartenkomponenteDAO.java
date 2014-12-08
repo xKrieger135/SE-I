@@ -1,5 +1,7 @@
 package lernkartenKomponente;
 
+import nutzerKomponente.INutzer;
+import nutzerKomponente.Nutzer;
 import persistenz.PersistenzServices;
 
 import java.beans.Statement;
@@ -31,7 +33,7 @@ public class LernkartenkomponenteDAO  {
             connection = DriverManager
                     .getConnection(
                             "jdbc:oracle:thin:@oracle.informatik.haw-hamburg.de:1521/inf09",
-                            "abq295", "D0itallnightl0ngxd.");
+                            "", "");
         } catch (SQLException ex) {
             System.err.println(ex.getMessage());
             return false;
@@ -99,14 +101,16 @@ public class LernkartenkomponenteDAO  {
             ResultSet resultset = pstmt.executeQuery();
 
             while(resultset.next()) {
+                INutzer nutzer = new Nutzer();
                 lernkarte.setLernkartenID(resultset.getInt("LERNKARTENID"));
                 lernkarte.setLernkartenName(resultset.getString("LERNKARTENNAME"));
                 lernkarte.setUeberprueft(resultset.getString("LERNKARTEUEBERPRUEFT"));
                 lernkarte.setFrage(resultset.getString("LERNKARTENFRAGE"));
                 lernkarte.setAntwort(resultset.getString("LERNKARTENANTWORT"));
                 lernkarte.setUeberprueft(resultset.getString("LERNKARTEUEBERPRUEFT"));
-                // TODO müssen hier noch weitere setter hinzugefügt werden ? wenn ja müssen diese in ILernkarte mit eingetragen werden oder macht man dies anders ?
-
+                lernkarte.setNutzer();
+                // TODO es muss auch ein nutzer gesetzt werden können (entweder auf die nutzer tabelle verweisen per nutzerID) oder den nutzer herauslesen
+                //  TODO irgendwie den befehl lernkarte.setNutzer(resultset.getNuzer());
             }
             resultset.close();
         } catch (SQLException e) {

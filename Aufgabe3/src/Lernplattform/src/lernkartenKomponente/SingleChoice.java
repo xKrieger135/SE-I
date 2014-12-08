@@ -56,18 +56,6 @@ public class SingleChoice implements IAufgabe {
         System.out.println(singleChoice.get(getKeyFuerFrage(aufgabenNummer)).containsValue(true));
     }
 
-    public static void main(String[] args) {
-        SingleChoice single = SingleChoice.getInstance();
-
-        single.fuegeFrageHinzu("Wie heiße ich?");
-
-        single.fuegeAntwortHinzu(1, "Patrick", true);
-        single.fuegeAntwortHinzu(1, "Steinhauer", false);
-
-
-        System.out.println(single.getKeyFuerFrage(1).toString());
-    }
-
     @Override
     public String toString() {
         return "SingleChoice{" +

@@ -12,11 +12,6 @@ public class Modul implements IModul{
     private int modulID;
     private List<ILernkarte> lernkarten;
 
-//    public Modul(String modulName, String modulBeschreibung) {
-//        this.modulName = modulName;
-//        this.modulBeschreibung = modulBeschreibung;
-//    }
-
     public Modul() {
 
     }

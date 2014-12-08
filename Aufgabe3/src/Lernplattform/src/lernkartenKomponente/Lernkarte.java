@@ -13,6 +13,7 @@ public class Lernkarte implements ILernkarte, IAufgabe {
     private String ueberprueft;
     private String frage;
     private String antwort;
+    private INutzer nutzer;
     private IAufgabe aufgabenTyp;
     private AufgabenTyp _aufgabentyp;
 
@@ -87,6 +88,14 @@ public class Lernkarte implements ILernkarte, IAufgabe {
 
     public void setAntwort(String antwort) {
         this.antwort = antwort;
+    }
+
+    public INutzer getNutzer() {
+        return nutzer;
+    }
+
+    public void setNutzer(INutzer nutzer) {
+        this.nutzer = nutzer;
     }
 
     @Override

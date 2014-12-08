@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by patrick_steinhauer on 01.12.2014.
  */
-public class Nutzer {
+public class Nutzer implements INutzer{
 
     private NutzerKennung nutzerKennung;
     private String name;
@@ -16,11 +16,6 @@ public class Nutzer {
     private EmailDatentyp email;
     private List<ILernkarte> erstellteLernkarten;
     private LernkartenKomponente lernkartenKomponente;
-
-    public void speichereLernkarteMittelsLernkartenIDInDenUser(ILernkarte lernkarte) {
-        int lernkartenID = lernkartenKomponente.speichereLernkarte(lernkarte);
-        //TODO Mit JDBC die lernkartenid in den user schreiben, damit er die lernkarte kennt
-    }
 
     public NutzerKennung getNutzerKennung() {
         return nutzerKennung;
@@ -30,6 +25,7 @@ public class Nutzer {
         this.nutzerKennung = nutzerKennung;
     }
 
+    @Override
     public String getName() {
         return name;
     }
@@ -38,6 +34,7 @@ public class Nutzer {
         this.name = name;
     }
 
+    @Override
     public String getVorname() {
         return vorname;
     }
@@ -46,8 +43,14 @@ public class Nutzer {
         this.vorname = vorname;
     }
 
+    @Override
     public EmailDatentyp getEmail() {
         return email;
+    }
+
+    @Override
+    public NutzerKennung getNutzerkennung() {
+        return null;
     }
 
     public void setEmail(EmailDatentyp email) {

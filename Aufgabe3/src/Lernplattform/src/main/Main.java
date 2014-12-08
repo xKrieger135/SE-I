@@ -15,10 +15,6 @@ import persistenz.IPersistenzServices;
 public class Main {
     public static void main(String[] args) {
         IPersistenzServices persistenzServices = null;
-//        INutzerKomponenteServices nutzerVerwaltung = new Nutzerkomponente();
-//        IAntwortKomponenteServices antwortVerwaltung = new AntwortKomponente(nutzerVerwaltung);
-//        ILernkartenKomponenteServices lernkartenVerwaltung = new LernkartenKomponente(persistenzServices, antwortVerwaltung, nutzerVerwaltung);
-
         IAntwortKomponenteServices iAntwortKomponenteServices = new AntwortKomponente(persistenzServices);
         ILernkartenKomponenteServices iLernkartenKomponenteServices = new LernkartenKomponente(persistenzServices, iAntwortKomponenteServices);
         INutzerKomponenteServices iNutzerKomponenteServices = new Nutzerkomponente(persistenzServices, iLernkartenKomponenteServices, iAntwortKomponenteServices);
