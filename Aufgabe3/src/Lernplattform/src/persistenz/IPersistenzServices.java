@@ -8,7 +8,4 @@ import java.sql.SQLException;
  */
 public interface IPersistenzServices {
 
-    boolean login(String username, String password);
-
-    void closeConnection() throws SQLException;
 }

@@ -25,5 +25,7 @@ public interface ILernkartenKomponenteServices {
 
     int speichereLernkarte(ILernkarte lernkarte);
 
+    ILernkarte getLernkarte(String LernkartenName);
+
 
 }

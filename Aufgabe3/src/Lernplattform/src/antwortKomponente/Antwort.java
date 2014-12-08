@@ -1,14 +1,14 @@
 package antwortKomponente;
 
-import lernkartenKomponente.AufgabenArt;
-import nutzerKomponente.INutzer;
+
+import lernkartenKomponente.AufgabenTyp;
 
 /**
  * Created by patrick_steinhauer on 10.11.2014.
  */
 public class Antwort implements IAntwort{
     private boolean antwortIstKorrekt = false;
-    private AufgabenArt antwort;
+    private AufgabenTyp antwort;
 
     public boolean istAbgegebeneAntwortKorrekt() {
         return antwortIstKorrekt;
@@ -22,11 +22,11 @@ public class Antwort implements IAntwort{
         this.antwortIstKorrekt = antwortIstKorrekt;
     }
 
-    public AufgabenArt getAntwort() {
+    public AufgabenTyp getAntwort() {
         return antwort;
     }
 
-    public void setAntwort(AufgabenArt antwort) {
+    public void setAntwort(AufgabenTyp antwort) {
         this.antwort = antwort;
     }
 

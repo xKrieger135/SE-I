@@ -19,42 +19,36 @@ public class LernkartenKomponente implements ILernkartenKomponenteServices {
     private List<ILernkarte> lernkarte;
     private List<IModul> vorhandeneModule;
     private SingleChoice singleChoice;
+    private LernkartenkomponenteDAO lkDAO;
 
-    public LernkartenKomponente(IPersistenzServices persistenzServices, IAntwortKomponenteServices antwortKomponentenServices, INutzerKomponenteServices nutzer) {
+    public LernkartenKomponente(IPersistenzServices persistenzServices, IAntwortKomponenteServices antwortKomponentenServices) {
         this.antwortKomponentenServices = antwortKomponentenServices;
-        this.nutzer = nutzer;
-    }
-
-    public LernkartenKomponente() {
-
+        this.lkDAO = new LernkartenkomponenteDAO();
     }
 
     @Override
     public IModul erstelleModul(String modulName, String modulBeschreibung) {
-        IModul modul = new Modul(modulName, modulBeschreibung);
+        Modul modul = new Modul();
         modul.setModulName(modulName);
         modul.setModulBeschreibung(modulBeschreibung);
-        vorhandeneModule.add(modul);
         return modul;
     }
 
     @Override
     public List<IModul> getModulListe() {
-        List<IModul> listeMitModulen = new ArrayList<IModul>();
-        for (int i = 0; i < vorhandeneModule.size() - 1; i++) {
-            listeMitModulen.add(vorhandeneModule.get(i));
-        }
-        return listeMitModulen;
+
+        return lkDAO.getModulListe();
     }
 
     @Override
     public List<ILernkarte> getListeDerLernkarten() {
-        return null;
+        return lkDAO.getListeDerLernkarten();
     }
 
     @Override
     public ILernkarte erstelleLernkarte(IModul modul, String lernkartenName, AufgabenTyp aufgabenTyp) {
-        ILernkarte lernkarte = new Lernkarte(lernkartenName, modul, aufgabenTyp);
+        Lernkarte lernkarte = new Lernkarte();
+//        lernkarte.setLernkartenName(lernkartenName);
         return lernkarte;
     }
 
@@ -71,6 +65,11 @@ public class LernkartenKomponente implements ILernkartenKomponenteServices {
     }
 
     @Override
+    public ILernkarte getLernkarte(String lernkartenName) {
+        return lkDAO.getLernkarte(lernkartenName);
+    }
+
+    @Override
     public String toString() {
         return "LernkartenKomponente{" +
                 "antwortKomponentenServices=" + antwortKomponentenServices +
@@ -78,26 +77,6 @@ public class LernkartenKomponente implements ILernkartenKomponenteServices {
                 ", lernkarte=" + lernkarte +
                 ", singleChoice=" + singleChoice +
                 '}';
-    }
-
-    public static void main(String[] args) {
-        String modulname = "ABC";
-        String modulbeschreibung = "ABABABABABAB";
-        IModul modul = new Modul(modulname, modulbeschreibung);
-
-        LernkartenKomponente lk = new LernkartenKomponente();
-
-        List<IModul> m = new ArrayList<IModul>();
-        m.add(lk.erstelleModul(modul.getModulName(), modul.getModulBeschreibung()));
-
-        String lernkartenName = "PADDY";
-        ILernkarte lks = new Lernkarte(lernkartenName ,modul, AufgabenTyp.SINGLECHOICE);
-        List<ILernkarte> lernk = new ArrayList<ILernkarte>();
-        lernk.add(lk.erstelleLernkarte(modul,lks.getLernkartenName(), AufgabenTyp.SINGLECHOICE));
-
-        System.out.println(lernk.get(0).toString());
-        System.out.println(m.get(0).toString());
-
     }
 
 }

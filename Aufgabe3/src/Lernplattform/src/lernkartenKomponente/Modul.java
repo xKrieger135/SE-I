@@ -12,29 +12,29 @@ public class Modul implements IModul{
     private int modulID;
     private List<ILernkarte> lernkarten;
 
-    public Modul(String modulName, String modulBeschreibung) {
-        this.modulName = modulName;
-        this.modulBeschreibung = modulBeschreibung;
-    }
+//    public Modul(String modulName, String modulBeschreibung) {
+//        this.modulName = modulName;
+//        this.modulBeschreibung = modulBeschreibung;
+//    }
 
-
-    @Override
-    public void setModulName(String modulName) {
-        this.modulName = modulName;
-    }
-
-    @Override
-    public void setModulNummer(int modulNummer) {
+    public Modul() {
 
     }
 
-    @Override
-    public void setModulBeschreibung(String modulBeschreibung) {
-        this.modulBeschreibung = modulBeschreibung;
+    public int getModulID() {
+        return modulID;
     }
 
     public void setModulID(int modulID) {
         this.modulID = modulID;
+    }
+
+    public void setModulName(String modulName) {
+        this.modulName = modulName;
+    }
+
+    public void setModulBeschreibung(String modulBeschreibung) {
+        this.modulBeschreibung = modulBeschreibung;
     }
 
     @Override
