@@ -1,8 +1,12 @@
 package nutzerKomponente;
 
+import lernkartenKomponente.ILernkarte;
+import lernkartenKomponente.Lernkarte;
 import lernkartenKomponente.Modul;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Paddy-Gaming on 08.12.2014.
@@ -46,6 +50,8 @@ public class NutzerKomponentenDAO {
             while(resultset.next()) {
             nutzerEinerBestimmtenLernkarte.setVorname(resultset.getString("VORNAME"));
             nutzerEinerBestimmtenLernkarte.setName(resultset.getString("NAME"));
+            nutzerEinerBestimmtenLernkarte.setEmail(new EmailDatentyp(resultset.getString("EMAIl")));
+            nutzerEinerBestimmtenLernkarte.setErstellteLernkarten();
 
             }
             resultset.close();

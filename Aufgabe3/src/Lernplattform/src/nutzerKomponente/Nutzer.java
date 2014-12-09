@@ -56,4 +56,12 @@ public class Nutzer implements INutzer{
     public void setEmail(EmailDatentyp email) {
         this.email = email;
     }
+
+    public List<ILernkarte> getErstellteLernkarten() {
+        return erstellteLernkarten;
+    }
+
+    public void setErstellteLernkarten(List<ILernkarte> erstellteLernkarten) {
+        this.erstellteLernkarten = erstellteLernkarten;
+    }
 }
