@@ -4,5 +4,8 @@ package nutzerKomponente;
  * Created by patrick_steinhauer on 02.12.2014.
  */
 public interface INutzerKomponenteServices {
-    INutzer getNutzerAnhandSeinerLernkarte();
+    /**
+     * Hier kommen noch Methoden für die Nutzerverwaltung herein.
+     */
+
 }

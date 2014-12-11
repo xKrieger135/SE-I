@@ -1,7 +1,8 @@
 package lernkartenKomponente;
 
-import nutzerKomponente.INutzer;
-import nutzerKomponente.Nutzer;
+import antwortKomponente.AntwortKomponente;
+import nutzerKomponente.*;
+import persistenz.IPersistenzServices;
 import persistenz.PersistenzServices;
 
 import java.beans.Statement;
@@ -18,6 +19,7 @@ public class LernkartenkomponenteDAO  {
     private Connection connection;
 
     private static LernkartenkomponenteDAO instance = null;
+    private INutzerKomponentenDAO iNutzerKomponentenDAO = NutzerKomponentenDAO.getInstance();
 
     public static LernkartenkomponenteDAO getInstance() {
         if(instance == null) {
@@ -39,26 +41,6 @@ public class LernkartenkomponenteDAO  {
             return false;
         }
         return true;
-    }
-
-    public INutzer getNutzerVonLernkarte() {
-        INutzer nutzerVonLernkarte = new Nutzer();
-
-        try {
-            login();
-            String select = "SELECT * FROM INUTZER";
-            PreparedStatement pstmt = connection.prepareStatement(select);
-            ResultSet resultset = pstmt.executeQuery();
-
-            while(resultset.next()) {
-
-
-            }
-            resultset.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return nutzerVonLernkarte;
     }
 
     public List<IModul> getModulListe() {
@@ -120,15 +102,14 @@ public class LernkartenkomponenteDAO  {
             ResultSet resultset = pstmt.executeQuery();
 
             while(resultset.next()) {
-                INutzer nutzer = new Nutzer();
                 lernkarte.setLernkartenID(resultset.getInt("LERNKARTENID"));
                 lernkarte.setLernkartenName(resultset.getString("LERNKARTENNAME"));
                 lernkarte.setUeberprueft(resultset.getString("LERNKARTEUEBERPRUEFT"));
                 lernkarte.setFrage(resultset.getString("LERNKARTENFRAGE"));
                 lernkarte.setAntwort(resultset.getString("LERNKARTENANTWORT"));
                 lernkarte.setUeberprueft(resultset.getString("LERNKARTEUEBERPRUEFT"));
-                // TODO es muss auch ein nutzer gesetzt werden können (entweder auf die nutzer tabelle verweisen per nutzerID) oder den nutzer herauslesen
-                //  TODO irgendwie den befehl lernkarte.setNutzer(resultset.getNuzer());
+//                lernkarte.setNutzer(iNutzerKomponentenDAO.getNutzerVonLernkarte(lernkarte.getErsteller().getNutzerID()));
+                lernkarte.setNutzer(iNutzerKomponentenDAO.getNutzerVonLernkarte(resultset.getInt("LERNKARTENERSTELLER")));
             }
             resultset.close();
         } catch (SQLException e) {
@@ -137,5 +118,10 @@ public class LernkartenkomponenteDAO  {
 
         return lernkarte;
     }
+
+    //------------------------------------------------------------------------------------------------------------------
+
+
+
 
 }

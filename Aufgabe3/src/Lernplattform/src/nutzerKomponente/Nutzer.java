@@ -11,6 +11,7 @@ import java.util.List;
 public class Nutzer implements INutzer{
 
     private NutzerKennung nutzerKennung;
+    private int nutzerID;
     private String name;
     private String vorname;
     private EmailDatentyp email;
@@ -63,5 +64,14 @@ public class Nutzer implements INutzer{
 
     public void setErstellteLernkarten(List<ILernkarte> erstellteLernkarten) {
         this.erstellteLernkarten = erstellteLernkarten;
+    }
+
+    @Override
+    public int getNutzerID() {
+        return nutzerID;
+    }
+
+    public void setNutzerID(int nutzerID) {
+        this.nutzerID = nutzerID;
     }
 }

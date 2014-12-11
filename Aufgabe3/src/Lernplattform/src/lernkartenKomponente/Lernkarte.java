@@ -17,16 +17,6 @@ public class Lernkarte implements ILernkarte, IAufgabe {
     private IAufgabe aufgabenTyp;
     private AufgabenTyp _aufgabentyp;
 
-
-//    public Lernkarte(String lernkartenName, IModul modul, AufgabenTyp aufgabenTyp) {
-//        this.lernkartenName = lernkartenName;
-//        this.modul = modul;
-//        if (aufgabenTyp == AufgabenTyp.SINGLECHOICE) {
-//            this.aufgabenTyp = SingleChoice.getInstance();
-//        }
-//    }
-
-
     public Lernkarte() {
         if (_aufgabentyp == AufgabenTyp.SINGLECHOICE) {
             this.aufgabenTyp = SingleChoice.getInstance();
@@ -121,7 +111,7 @@ public class Lernkarte implements ILernkarte, IAufgabe {
 
     @Override
     public INutzer getErsteller() {
-        return null;
+        return nutzer;
     }
 
 

@@ -23,7 +23,7 @@ public class LernkartenKomponente implements ILernkartenKomponenteServices {
 
     public LernkartenKomponente(IPersistenzServices persistenzServices, IAntwortKomponenteServices antwortKomponentenServices) {
         this.antwortKomponentenServices = antwortKomponentenServices;
-        this.lkDAO = new LernkartenkomponenteDAO();
+        this.lkDAO = LernkartenkomponenteDAO.getInstance();
     }
 
     @Override

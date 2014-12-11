@@ -17,10 +17,4 @@ public class Nutzerkomponente implements INutzerKomponenteServices {
         this.antwortKomponenteServices = antwortKomponenteServices;
     }
 
-
-    @Override
-    public INutzer getNutzerAnhandSeinerLernkarte() {
-    //TODO diese methode muss noch ordentlich in der DAO gemacht werden
-        return nutzerKomponentenDAO.getNutzerAnhandSeinerLernkarte();
-    }
 }
